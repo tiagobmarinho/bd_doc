@@ -1,0 +1,26 @@
+site_name: Documentação dos Bancos de Dados
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: amber
+      toggle:
+        icon: material/weather-night
+        name: Modo noturno
+    - scheme: slate
+      primary: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+#nav:
+#    - Menu: index.md
+#    - Dois: pagina2.md
+#    - Três: pagina3/outrapasta.md
+
+markdown_extensions:
+  - pymdownx.tasklist # Lista de tarefas
+  - pymdownx.emoji    # Emojis
+  - pymdownx.mark     # Realçado
+  - pymdownx.tilde    # Tachado
+  - pymdownx.highlight # Para destacar os códigos
+  - pymdownx.superfences # Ativar o "os bloquinhos"
