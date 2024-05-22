@@ -1,65 +1,114 @@
-# Título da página. - Tiago B. Marinho!
+# **Sobre esta documentação**
 
-## Listas
+Este documento traz informações sobre os bancos de dados utilizados pela Secretaria Municipal de Educação com o objetivo de esclarecer o que são os dados armazenados dentro das tabelas, além da estrutura relacional existente dentro dos esquemas.  
 
-### Não ordenadas:
+As views e tabelas que não seguem o padrão de nomenclatura como, por exemplo, ==TB_NOME_DA_TABELA== e ==VW_NOME_DA_VIEW==,  não foram registradas neste documento visto que, provavelmente, serão deletadas posteriormente pelo seu não uso.
 
-- X.
-- Y
-- Z.
+As views ou tabelas que estão com a nomenclatura correta, mas caso não esteja sendo mais utilizada e essa informação for validada com o time de desenvolvimento, será mantida neste documento, mas com uma observação em destaque. 
 
-### Ordenadas:
+[//]: # ()
+[//]: # (## Banco de Dados)
 
-1. Ordenadas.
-2. Segundo.
-3. Terceiro.
+[//]: # ()
+[//]: # (## Listas)
 
-## Alterações de texto
+[//]: # ()
+[//]: # (### Não ordenadas:)
 
-**Negrito**
+[//]: # ()
+[//]: # (- X.)
 
-*Itálico*
+[//]: # (- Y)
 
-`Segredo = 42`
+[//]: # (- Z.)
 
-:snake:
+[//]: # ()
+[//]: # (### Ordenadas:)
 
-Então, né? :heart: Vamos aí!
+[//]: # ()
+[//]: # (1. Ordenadas.)
 
-~~Tachado~~
+[//]: # (2. Segundo.)
 
-==Realçado==
+[//]: # (3. Terceiro.)
 
-## Citações
+[//]: # ()
+[//]: # (## Alterações de texto)
 
-> Essa é uma citação.
+[//]: # ()
+[//]: # (**Negrito**)
 
-## Link
+[//]: # ()
+[//]: # (*Itálico*)
 
-[Instagram](https://instagram.com/tiagobmarinho)
+[//]: # ()
+[//]: # (`Segredo = 42`)
 
-![Imagem](./images/sm.png)
+[//]: # ()
+[//]: # (:snake:)
 
-## Tabela
+[//]: # ()
+[//]: # (Então, né? :heart: Vamos aí!)
 
-| Nome    | Idade |
-|---------|-------|
-| Eduardo | 28    |
-| Fausto | 04    |
- 
-## Lista de tarefas
+[//]: # ()
+[//]: # (~~Tachado~~)
 
-- [ ] Conectar com a VPN.
-- [ ] Acessar o banco de dados.
-- [X] Listar os esquemas.
+[//]: # ()
+[//]: # (==Realçado==)
 
-## Bloco de código
+[//]: # ()
+[//]: # (## Citações)
 
-```{.py3 hl_lines="1-3 5" linenums="1" title="meu_arquivo.py"}
-    def teste():
-        """Docstring."""
-        x = x
-        y = y
-        z = z
-        return True
-```
+[//]: # ()
+[//]: # (> Essa é uma citação.)
+
+[//]: # ()
+[//]: # (## Link)
+
+[//]: # ()
+[//]: # ([Instagram]&#40;https://instagram.com/tiagobmarinho&#41;)
+
+[//]: # ()
+[//]: # (![Imagem]&#40;./images/sm.png&#41;)
+
+[//]: # ()
+[//]: # (## Tabela)
+
+[//]: # ()
+[//]: # (| Nome    | Idade |)
+
+[//]: # (|---------|-------|)
+
+[//]: # (| Eduardo | 28    |)
+
+[//]: # (| Fausto | 04    |)
+
+[//]: # ( )
+[//]: # (## Lista de tarefas)
+
+[//]: # ()
+[//]: # (- [ ] Conectar com a VPN.)
+
+[//]: # (- [ ] Acessar o banco de dados.)
+
+[//]: # (- [X] Listar os esquemas.)
+
+[//]: # ()
+[//]: # (## Bloco de código)
+
+[//]: # ()
+[//]: # (```{.py3 hl_lines="1-3 5" linenums="1" title="meu_arquivo.py"})
+
+[//]: # (    def teste&#40;&#41;:)
+
+[//]: # (        """Docstring.""")
+
+[//]: # (        x = x)
+
+[//]: # (        y = y)
+
+[//]: # (        z = z)
+
+[//]: # (        return True)
+
+[//]: # (```)
