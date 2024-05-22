@@ -15,7 +15,7 @@ theme:
 #nav:
 #    - Menu: index.md
 #    - Dois: pagina2.md
-#    - Três: pagina3/outrapasta.md
+#    - Três: Estrutura de diretórios/outrapasta.md
 
 markdown_extensions:
   - pymdownx.tasklist # Lista de tarefas
